@@ -1,0 +1,6 @@
+pandas
+requests
+pytz
+vaderSentiment
+python-dotenv
+yfinance
