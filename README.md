@@ -15,6 +15,3 @@ Usage
 - Run `data_cleaning.ipynb` to produce `stock.csv` used by `analysis.ipynb`.
 - Run `analysis.ipynb` to aggregate majority signals per day and run intraday backtest using `yfinance` or a provided `price.csv`.
 
-Notes
-- The notebook will try, in order, environment variables, `.env`, `API.key`, then `API.rtf` to find your API key.
-- Alpha Vantage free tier has rate limits; the notebook includes delays to avoid throttling.
